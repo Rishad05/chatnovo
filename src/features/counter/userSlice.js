@@ -25,7 +25,6 @@ export const userSlice = createSlice({
     logout: (state) => {
       state.user = null;
     },
-
     // incrementByAmount: (state, action) => {
     //   state.value += action.payload;
     // },

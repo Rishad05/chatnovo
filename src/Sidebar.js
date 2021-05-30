@@ -18,11 +18,15 @@ const Sidebar = () => {
             snapshot.docs.map((doc) => ({
                 id:doc.id,
                 data:doc.data(),
+
+
             }))
         ))
 
     },[]);
 
+
+    
     const addChat = () =>{
         const chatName = prompt("please Enter a Chat name");
 

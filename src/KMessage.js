@@ -6,8 +6,10 @@ import Sidebar from './Sidebar';
 const KMessage = () => {
     return (
         <div className="kmessage">
-            <Sidebar></Sidebar>
+              <Sidebar></Sidebar>
             <Chat></Chat>
+          
+            
             
         </div>
     );

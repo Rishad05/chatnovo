@@ -11,26 +11,26 @@
     display:flex;
     justify-content:space-between;
     border-bottom: 1px solid lightgray;
-    background-color:rgb(235, 230, 230);
+    background-color:#790bac;
 }
 .chat_header>h4{
     font-weight: 500;
-    color:gray;
+    color:white;
 }
 .chat_name{
-    color: black;
+    color:white;
 }
 .chat_input{
     display:flex;
     align-items: center;
     padding:10px 20px;
-    background-color:rgb(201, 196, 190)
+    background-color:#790bac;
 }
 .chat_input>form{
     flex:1;
 }
 .chat_input>form>input{
-    width: 98%;
+    width: 100%;
     outline-width: 0;
     border: 1px solid lightgray;
     border-radius:999px;
@@ -40,5 +40,5 @@
     display:none;
 }
 .chat_message{
-    flex:1;
+    flex:2;
 }

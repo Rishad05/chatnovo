@@ -3,7 +3,7 @@ import './App.css';
 import { useDispatch, useSelector } from 'react-redux';
 import { login, selectUser,logout } from './features/counter/userSlice';
 import Login from './Login';
-import KMessage from './KMessage';
+import ChatNovoMessage from './ChatNovoMessage';
 import { auth } from './firebase';
 
 function App() {
@@ -40,7 +40,7 @@ function App() {
 
   return (
     <div className="App">
-      {user ? <KMessage/> :<Login/> }
+      {user ? <ChatNovoMessage/> :<Login/> }
 
       
 

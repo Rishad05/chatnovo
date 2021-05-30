@@ -11,7 +11,7 @@ import db,{ auth } from './firebase';
 const Sidebar = () => {
     const user =useSelector(selectUser);
     const [chats, setChats] = useState([])
-    
+
     useEffect(() => {
         db.collection("chats").onSnapshot((snapshot)=>
         setChats(
@@ -26,7 +26,7 @@ const Sidebar = () => {
     },[]);
 
 
-    
+
     const addChat = () =>{
         const chatName = prompt("please Enter a Chat name");
 
@@ -45,16 +45,16 @@ const Sidebar = () => {
                     <input type="text" placeholder="Search"/>
                 </div>
                 <IconButton variant="outlined" className="sidebar_inputbutton">
-                <RateReviewOutlinedIcon onClick={addChat}></RateReviewOutlinedIcon>
+                <RateReviewOutlinedIcon className="text-white" onClick={addChat}></RateReviewOutlinedIcon>
                 </IconButton>
-               
+
             </div>
             <div className="sidebar_chats">
                 {chats.map(({ id, data: {chatName }}) => (
             <SidebarChat  key={id} id={id} chatName={chatName}/>
 
                 ))}
-                
+
             </div>
         </div>
     );

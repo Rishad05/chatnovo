@@ -31,7 +31,7 @@ const Chat = () => {
                      />
                     <button onClick={sendMessage}>Send Message</button>
                 </form>
-                <IconButton>
+               <IconButton>
                     <MicNoneIcon className="chat_mic"></MicNoneIcon>
                 </IconButton>
                 

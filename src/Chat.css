@@ -3,7 +3,7 @@
     flex-direction: column;
     flex: 0.65;
     height:100vh;
-    background-color: rgb(190, 83, 83);
+    background-color: rgb(255, 255, 255);
     
 }
 .chat_header{
@@ -11,7 +11,7 @@
     display:flex;
     justify-content:space-between;
     border-bottom: 1px solid lightgray;
-    background-color:rgb(46, 5, 5);
+    background-color:rgb(255, 230, 6);
 }
 .chat_header>h4{
     font-weight: 500;
@@ -24,7 +24,7 @@
     display:flex;
     align-items: center;
     padding:10px 20px;
-    background-color:rgb(201, 196, 190)
+    background-color:rgb(255, 217, 5)
 }
 .chat_input>form{
     flex:1;

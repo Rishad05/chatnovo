@@ -3,7 +3,7 @@
     height:100vh;
     display: flex;
     flex-direction:column;
-    background-color: rgb(113, 255, 19);
+    background-color: rgba(0, 102, 0, 0.644);
     border-right: 1px solid rgb(83, 79, 79);
 }
 .sidebar_header{
@@ -22,7 +22,7 @@
     /* justify-content: center; */
     flex: 1;
     background-color: rgb(251, 255, 1);
-    color:rgb(87, 82, 82);
+    color:rgb(255, 255, 255);
     border-radius: 5px;
 }
 .sidebar_input>input{

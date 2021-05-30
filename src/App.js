@@ -1,11 +1,12 @@
 import React from 'react';
 import './App.css';
-import KMessage from './KMessage';
+import ChatNovoMessage from './ChatNovoMessage';
+
 
 function App() {
   return (
     <div className="App">
-      <KMessage></KMessage>
+     <ChatNovoMessage></ChatNovoMessage>
 
       
 

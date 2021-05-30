@@ -1,11 +1,11 @@
 import React from 'react';
 import Chat from './Chat';
-import'./KMessage.css';
+import'./ChatNovoMessage.css';
 import Sidebar from './Sidebar';
 
-const KMessage = () => {
+const ChatNovoMessage = () => {
     return (
-        <div className="kmessage">
+        <div className="ChatNovoMessage">
             <Sidebar></Sidebar>
             <Chat></Chat>
             
@@ -13,4 +13,4 @@ const KMessage = () => {
     );
 };
 
-export default KMessage;
+export default ChatNovoMessage;
